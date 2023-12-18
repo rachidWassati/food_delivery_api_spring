@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +14,6 @@ import com.rachidj.api_rest.dto.RestaurantRequest;
 import com.rachidj.api_rest.entities.Restaurant;
 import com.rachidj.api_rest.entities.Role;
 import com.rachidj.api_rest.repository.RestaurantRepository;
-import com.rachidj.api_rest.utils.PasswordUtils;
 
 import lombok.RequiredArgsConstructor;
 
